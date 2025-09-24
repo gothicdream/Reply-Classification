@@ -41,23 +41,15 @@ Steps:
 
 Logistic Regression
 
-LightGBM (optional)
-
-Fine-tune transformer:
-
-distilbert-base-uncased using Hugging Face
+Fine-tune transformer: distilbert-base-uncased using Hugging Face
 
 Evaluate models:
-
-Accuracy
-
-F1-score
+- Accuracy
+- F1-score
 
 Comparison:
-
-Logistic Regression: stable, faster, good for small datasets
-
-DistilBERT: higher accuracy but sometimes hallucinate, slower inference
+- Logistic Regression: stable, faster, good for small datasets
+- DistilBERT: higher accuracy but sometimes hallucinate, slower inference
 
 ✅ Production choice: Logistic Regression model for reliability.
 
